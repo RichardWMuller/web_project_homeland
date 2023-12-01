@@ -1,0 +1,96 @@
+.about{
+  display: flex;
+  max-width: 984px;
+  width:100%;
+ /* margin: 0 auto;
+  padding: 0 24px;*/
+}
+.about__content{
+  display: flex;
+  flex-direction: column;
+  max-width: 828px;
+  margin-top:92px;
+  margin-right: auto;
+  margin-left: 148px;
+  margin-bottom: 92px;
+
+}
+.about__title{
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.07;
+  margin-bottom: 75px;
+  width: 828px;
+  height: 116px;
+
+  
+}
+.about__quote{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  width: 736px;
+  
+ 
+  
+}
+.about__cite{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  margin-top: 9px;
+  margin-right: 16px;
+  
+}
+.about__text{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63;
+  text-align: left;
+  margin-top:32px;
+  width: 720px;
+  height: 182px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .about__content {
+    margin-left: 24px;
+    max-width: 720px;
+  }
+  .about__cite{
+    max-width: 720px;
+  }
+  .about__title{
+    max-width: 720px;
+  }
+  .about__quote{
+    max-width: 707px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__content {
+    margin-left: 16px;
+    max-width: 304px;
+    
+  }
+  .about__cite{
+    max-width: 320px;
+    margin-top: 55px;
+  }
+  .about__title{
+    max-width: 288px;
+    font-size: 32px;
+  }
+  .about__text{
+    max-width: 288px;
+  
+  }
+  .about__quote{
+    max-width: 288px;
+  
+  }
+}

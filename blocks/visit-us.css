@@ -1,0 +1,73 @@
+.visit-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/__background-visit-us.png);
+  position: relative;
+  width: 100%;
+  height: 740px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 32px;
+
+}
+.visit-us__overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0;
+  background-color: #2a2c2f;
+  transition: opacity 0.2s ease-in-out;
+}
+.visit-us:hover .visit-us__overlay {
+  opacity: 0.8;
+}
+.visit-us__title{
+font-size: 72px;
+font-weight: 900;
+text-align: center;
+width: 656px;
+height: 76px;;
+z-index: 1;
+
+}
+.visit-us__paragraph{
+
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+width: 280px;
+line-height: 1.22;
+z-index: 1;
+
+}
+
+.visit-us__paragraph-address{
+  display: block;
+  margin-bottom: 32px;
+}
+
+.visit-us__button{
+  z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .visit-us {
+    height: 100%;
+    padding: 46px 0;
+    gap: 16px;
+  }
+  .visit-us__title {
+    font-size: 32px;
+    max-width: 320px;
+  }
+  .visit-us__paragraph {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+ 
+}
