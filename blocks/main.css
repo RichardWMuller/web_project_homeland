@@ -8,6 +8,11 @@
     gap: 88px;
   }
 }
+@media screen and (max-width: 470px) {
+  .main {
+    gap: 62px;
+  }
+}
 @media screen and (max-width: 320px) {
   .main {
     gap: 62px;
