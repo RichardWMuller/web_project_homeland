@@ -48,9 +48,12 @@ z-index: 1;
 
 .visit-us__paragraph-address{
   display: block;
+  /*margin-bottom: 32px;*/
+}
+.visit-us__paragraph-address-l{
+  
   margin-bottom: 32px;
 }
-
 .visit-us__button{
   z-index: 1;
 }
