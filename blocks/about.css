@@ -77,23 +77,23 @@
   .about__content {
     margin-left: 24px;
     max-width: 501px;
-    width: 100%
+    width: 100%;
   }
   .about__cite{
     max-width: 501px;
-    width: 100%
+    width: 100%;
   }
   .about__title{
     max-width: 501px;
-    width: 100%
+    width: 100%;
   }
   .about__quote{
     max-width: 490px;
-    width: 100%
+    width: 100%;
   }
   .about__text{
     max-width: 501px;
-    width: 100%
+    width: 100%;
   
   }
 }
@@ -103,23 +103,24 @@
   .about__content {
     margin-left: 24px;
     max-width: 422px;
-    width: 100%
+    width: 100%;
   }
   .about__cite{
     max-width: 422px;
-    width: 100%
+    width: 100%;
   }
   .about__title{
     max-width: 422px;
-    width: 100%
+    width: 100%;
+    font-size: 42px;
   }
   .about__quote{
     max-width: 411px;
-    width: 100%
+    width: 100%;
   }
   .about__text{
     max-width: 422px;
-    width: 100%
+    width: 100%;
   
   }
 }
@@ -133,6 +134,7 @@
   }
   .about__title{
     max-width: 301px;
+    font-size: 32px;
   }
   .about__quote{
     max-width: 290px;
